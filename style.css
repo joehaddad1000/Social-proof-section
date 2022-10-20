@@ -122,17 +122,20 @@ main p {
 .container-quotes section .txt span {
   text-align: left;
 }
+
 .container-quotes section blockquote {
-  margin-block: 2rem;
+  margin-block-start: 2rem;
+  margin-block-end: 1rem;
   color: var(--White);
   font-weight: 500;
-line-height: 1.6rem;
+  line-height: 1.6rem;
 }
 
 .white {
   color: var(--White);
   font-weight: 700;
 }
+
 .pink {
   color: var(--Soft-Pink);
 }
