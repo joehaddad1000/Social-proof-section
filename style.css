@@ -34,6 +34,7 @@ main {
   flex-direction: column;
   font-size: 1.375rem;
   text-align: center;
+  max-width: 23.4375rem;
 }
 
 main h1 {
