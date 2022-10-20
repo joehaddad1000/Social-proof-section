@@ -43,7 +43,7 @@ main h1 {
 
 main p {
   color: var(--Dark-Grayish-Magenta);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
 }
@@ -83,7 +83,59 @@ main p {
   font-weight: 700;
 }
 
+.container-quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-block-end: 1rem;
+  text-align: left;
+}
 
+
+.container-quotes section {
+  background-color: var(--Very-Dark-Magenta);
+  padding: 1.5rem;
+  border-radius: .6rem;
+}
+
+.container-quotes section .name {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container-quotes section .name img {
+  border-radius: 22.5rem;
+  width: 15%;
+}
+
+.container-quotes section .txt {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  margin-inline-start: 1.5rem;
+}
+
+.container-quotes section .txt span {
+  text-align: left;
+}
+.container-quotes section blockquote {
+  margin-block: 2rem;
+  color: var(--White);
+  font-weight: 500;
+line-height: 1.6rem;
+}
+
+.white {
+  color: var(--White);
+  font-weight: 700;
+}
+.pink {
+  color: var(--Soft-Pink);
+}
 
 /* FOOTER */
 .attribution {
