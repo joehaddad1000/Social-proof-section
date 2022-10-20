@@ -43,13 +43,44 @@ main h1 {
 main p {
   color: var(--Dark-Grayish-Magenta);
   font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 2.5rem;
 }
 
+.container-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-block-end: 2rem;
+}
 
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 
+.stars img {
+  padding-inline: .2rem;
+}
 
+.container-stars section {
+  background-color: var(--Light-Grayish-Magenta);
+  width: 100%;
+  padding: 1rem;
+  border-radius: .7rem;
+  margin-block-end: 1rem;
+}
 
+.container-stars section h2 {
+  color: var(--Very-Dark-Magenta);
+  font-size: 1rem;
+  margin-block-start: .8rem;
+  font-weight: 700;
+}
 
 
 
