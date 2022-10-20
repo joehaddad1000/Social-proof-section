@@ -88,7 +88,6 @@ main p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-block-end: 1rem;
   text-align: left;
 }
 
@@ -97,6 +96,7 @@ main p {
   background-color: var(--Very-Dark-Magenta);
   padding: 1.5rem;
   border-radius: .6rem;
+  margin-block-end: 1rem;
 }
 
 .container-quotes section .name {
