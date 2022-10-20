@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+body {
+  font-family: 'League Spartan', sans-serif;
+}
 
 /* FOOTER */
 .attribution {
