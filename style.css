@@ -197,16 +197,19 @@ main p {
   .s1 {
     grid-area: s1;
     height: 100%;
+    margin-block-start: 2rem;
   }
 
   .s2 {
     grid-area: s2;
-    height: 100%;
+    height: 100%;    
+    margin-block-start: 4rem;
   }
 
   .s3 {
     grid-area: s3;
     height: 100%;
+    margin-block-start: 6rem;
   }
 
   .container-stars {
@@ -223,6 +226,12 @@ main p {
 
   .container-stars .star3 {
     margin-inline-start: 5.5rem;
+  }
+
+  .attribution {
+    margin-top: 5rem;
+    font-size: xx-large;
+    font-weight: 700;
   }
 
 }
