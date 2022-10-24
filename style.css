@@ -34,7 +34,7 @@ main {
   flex-direction: column;
   font-size: 1.375rem;
   text-align: center;
-  max-width: 23.4375rem;
+  max-width: 24rem;
 }
 
 main h1 {
@@ -208,9 +208,11 @@ main p {
     grid-area: s3;
     height: 100%;
   }
-.container-stars {
-  max-width: 90rem;
-}
+
+  .container-stars {
+    max-width: 90rem;
+  }
+
   .container-stars .star1 {
     margin-inline-start: 1.5rem;
   }
