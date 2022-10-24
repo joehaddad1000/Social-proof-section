@@ -55,6 +55,7 @@ main p {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  max-height: 100%;
   margin-block-end: 2rem;
 }
 
@@ -156,9 +157,11 @@ main p {
   body {
     height: auto;
   }
+
   main {
     max-width: 90rem;
   }
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -193,14 +196,31 @@ main p {
 
   .s1 {
     grid-area: s1;
+    height: 100%;
   }
 
   .s2 {
     grid-area: s2;
+    height: 100%;
   }
 
   .s3 {
     grid-area: s3;
+    height: 100%;
+  }
+.container-stars {
+  max-width: 90rem;
+}
+  .container-stars .star1 {
+    margin-inline-start: 1.5rem;
+  }
+
+  .container-stars .star2 {
+    margin-inline-start: 3.5rem;
+  }
+
+  .container-stars .star3 {
+    margin-inline-start: 5.5rem;
   }
 
 }
